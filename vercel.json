@@ -1,17 +1,12 @@
 {
-    "builds": [],
-    "routes": [
-      {
-        "src": "/_nuxt/(.*)",
-        "dest": "/website/_nuxt/$1"
-      },
-       {
-        "src": "/_nuxt/(.*)\\.(?:js|css|map)$",
-        "dest": "/website/_nuxt/$1"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/website/index.html"
-      }
-    ]
-  }
+  "routes": [
+    {
+      "src": "/_nuxt/(.*)",
+      "dest": "/screensaver/_nuxt/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/screensaver/$1"
+    }
+  ]
+}
