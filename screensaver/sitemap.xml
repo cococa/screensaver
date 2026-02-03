@@ -2,37 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <!-- English Homepage -->
+  <!-- 中文首页 -->
   <url>
-    <loc>https://cc-screensaver.com/</loc>
-    <lastmod>2026-01-14</lastmod>
+    <loc>https://www.ipingbao.com/zh-CN/</loc>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cc-screensaver.com/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cc-screensaver.com/zh-CN/" />
-    <xhtml:link rel="alternate" hreflang="tr" href="https://cc-screensaver.com/tr/" />
   </url>
   
-  <!-- Chinese Homepage -->
+  <!-- 中文菜单页 -->
   <url>
-    <loc>https://cc-screensaver.com/zh-CN/</loc>
-    <lastmod>2026-01-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cc-screensaver.com/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cc-screensaver.com/zh-CN/" />
-    <xhtml:link rel="alternate" hreflang="tr" href="https://cc-screensaver.com/tr/" />
+    <loc>https://www.ipingbao.com/zh-CN/menu</loc>
+    <lastmod>2026-01-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   
-  <!-- Turkish Homepage -->
+  <!-- 中文模态页 -->
   <url>
-    <loc>https://cc-screensaver.com/tr/</loc>
-    <lastmod>2026-01-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cc-screensaver.com/" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cc-screensaver.com/zh-CN/" />
-    <xhtml:link rel="alternate" hreflang="tr" href="https://cc-screensaver.com/tr/" />
+    <loc>https://www.ipingbao.com/zh-CN/modal</loc>
+    <lastmod>2026-01-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>

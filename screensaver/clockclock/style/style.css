@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+}
+
+#canvas {
+    z-index: 100;
+    position: absolute;
+}
+
+.container {
+    background: #ececec;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock-panel {
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.4);
+    height: max-content;
+    width: max-content;
+    margin: 20px;
+}
+
+.background {
+    --cols: none;
+    --rows: none;
+    position: relative;
+    border: 1px solid #f1f1f1;
+    background: #e7e7e7;
+    background: linear-gradient(90deg, #dfdddd 0%, #e7e7e7 50%, #f3f3f3 100%);
+    box-shadow: 0 5px 10px 2px rgba(253, 253, 253, 0.2) inset;
+}
+
+.clock-calc {
+    --mul_base: 16px;
+
+    --x: none;
+    --y: none;
+
+    --cos_a: none;
+    --sin_a: none;
+    --intensity: none;
+
+    --mul: calc(var(--mul_base) * var(--intensity));
+}
+
+.clock {
+    --clock-box-shadow-color: rgba(163, 163, 163, 0.8);
+    box-shadow: calc(-1 * var(--mul) * var(--cos_a)) calc(var(--mul) * var(--sin_a)) 10px -5px var(--clock-box-shadow-color) inset;
+    --clock-arrow-color: black;
+    position: absolute;
+    background: #ededed;
+    background: linear-gradient(135deg, #ededed80 0%, #efefef80 100%);
+    border: 1px solid #e7e7e7;
+    border-radius: 50%;
+}
+
+.oled-bg .container {
+    background: #000 !important;
+}
+
+.oled-bg .clock-panel {
+    box-shadow: none !important;
+}
+
+.oled-bg .background {
+    border: none !important;
+}
+
+/* BACKGROUNDS */
+
+.switzerland-bg .container {
+    background: url(../assets/bg/switzerland.jpg) no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important
+}
+
+.new_zeland-bg .container {
+    background: url(../assets/bg/new_zeland.jpg) no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important
+}
+
+.nasa_earth-bg .container {
+    background: url(../assets/bg/nasa_earth.jpg) no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important
+}
+
+.nasa_nebula-bg .container {
+    background: url(../assets/bg/nasa_nebula.jpg) no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important
+}
+
+.nasa_tunnel-bg .container {
+    background: url(../assets/bg/nasa_tunnel.jpg) no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important
+}
+
+.windows_blue-bg .container {
+    background: url(../assets/bg/windows_blue.jpg) no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important
+}
+
+.windows_green-bg .container {
+    background: url(../assets/bg/windows_green.jpg) no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important
+}
+
+.windows_light-bg .container {
+    background: url(../assets/bg/windows_light.jpg) no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.color-bg .container {
+    background: var(--bg-color) !important;
+}
+
+.image-bg .container {
+    background: var(--bg-image) !important;
+}

@@ -2,5 +2,8 @@
 User-agent: *
 Allow: /
 
+# 禁止抓取构建资源
+Disallow: /_nuxt/
+
 # Sitemaps
-Sitemap: https://cc-screensaver.com/sitemap.xml
+Sitemap: https://www.ipingbao.com/sitemap.xml
